@@ -24,7 +24,7 @@ React の開発チームのセバスチャンさんがだしてる CSS in JS ラ
 > While this technique for generating CSS is popular today, we've found that it has a number of problems that we'd like to avoid. Therefore we don't have plans for adding any solutions upstream to handle this in React. For the time being, we expect this to have to be handled by third-party libraries such as in this guide.
 > Our preferred solution is to use <link rel="stylesheet"> for statically extracted styles and plain inline styles for dynamic values. E.g. <div style={{...}}>. You could however build a CSS-in-JS library that extracts static rules into external files using a compiler. That's what we use at Facebook.
 
-CSS-in-JS ライブラリでもコンパイラを使用して外部ファイルに抽出することも可能で、それが Facebook で利用しているライブラリだよ、と書いてあります。
+CSS-in-JS ライブラリでもコンパイラを使用して外部ファイルに抽出が可能で、それが Facebook で利用しているライブラリだよ、と書いてあります。
 Stylex のことを指しているのだと思われますが、現時点（2022/05/13）で公開は確認できていません。
 
 https://www.infoq.com/jp/news/2021/11/facebook-css-js-stylex/
@@ -76,12 +76,12 @@ h1 {
 }
 ```
 
-色相、白さ、黒さで色を指定する。より人間の色に合わせた表記とのこと。opacity もオプションで指定することができます。
-Firefox や Safari でもサポートされていて、モダンブラウザであれば利用することができます。
+色相、白さ、黒さで色を指定する。より人間の色に合わせた表記とのこと。opacity もオプションで指定ができます。
+Firefox や Safari でもサポートされていて、モダンブラウザであれば利用ができます。
 
 ### Priority Hints の追加。<img>で fetchpriority が指定できるようになった
 
-img の読み込みの優先度が決めれるようになりました。 `fetchpriority="high"` のものが優先的に読み込みされて、画像読み込みの最適化に利用できそうです。  
+img の読み込みの優先度が決められるようになりました。 `fetchpriority="high"` のものが優先的に読み込みされて、画像読み込みの最適化に利用できそうです。  
 どの程度最適化に影響あるのかは[こちら](https://web.dev/priority-hints/)を参照。
 
 # news
@@ -104,7 +104,7 @@ https://ja.reactjs.org/docs/react-api.html#reactsuspense
 
 > 現時点ではコンポーネントの遅延ローディングが <React.Suspense> がサポートする唯一のユースケースです
 
-結論としてはこの問題を解決するために Suspense が登場した、という認識になり stable になるまで今まで通りの書き方しかないね、となりました。
+結論としてはこの問題を解決するために Suspense が登場した、という認識になり stable が来るまで従来通りの書き方しかないね、となりました。
 
 ```tsx
 export default function App() {
