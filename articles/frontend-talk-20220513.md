@@ -104,7 +104,7 @@ https://ja.reactjs.org/docs/react-api.html#reactsuspense
 
 > 現時点ではコンポーネントの遅延ローディングが <React.Suspense> がサポートする唯一のユースケースです
 
-結論としてはこの問題を解決するために Suspense が登場した、という認識になり stable が来るまで従来通りの書き方しかないね、となりました。
+結論としてはこの問題を解決するために Suspense が登場した、という認識になり「stable が来るまで従来通りの書き方しかないね」となりました。
 
 ```tsx
 export default function App() {
