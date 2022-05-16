@@ -6,10 +6,16 @@ topics: ["HRBrainFrontendTalk"]
 published: true
 ---
 
-こんにちは。株式会社 HRBrain フロントエンドエンジニアのしっぽくんです。
+<!-- prettier-ignore-start -->
+<!-- textlint-disable -->
 
-私たち HRBrain では週に一度、フロントエンドトークという「1 週間の間に発見したフロントエンドに関するネタを共有もしくは相談する会」を社内で 30 分程度開催しています。  
+こんにちは。株式会社HRBrainでフロントエンドエンジニアをしているしっぽくんです。
+
+私たち HRBrain では週に1度、フロントエンドトークという「1週間の間に発見したフロントエンドに関するネタを共有もしくは相談する会」を社内で30分程度開催しています。  
 本記事はその際に出たネタをまとめたものになります。
+
+<!-- textlint-enable -->
+<!-- prettier-ignore-end -->
 
 今回は公開第 1 回目です。過去の記事は[こちら](https://zenn.dev/topics/hrbrainfrontendtalk)。
 
@@ -91,7 +97,7 @@ img の読み込みの優先度が決められるようになりました。 `fe
 https://github.com/lerna/lerna/issues/3121
 
 monorepo 管理ツールである Lerna の管理を Nrwl が引き継ぎました。
-３月にメンテナの inca さんが Lerna の利用を非推奨にすると発表していました。社内でもプロダクトに利用していて移行検討をしていましたが見送りしても良さそうですね。
+3 月にメンテナの inca さんが Lerna の利用を非推奨にすると発表していました。社内でもプロダクトに利用していて移行検討をしていましたが見送りしても良さそうですね。
 https://github.com/lerna/lerna/pull/3092
 
 # discussion
