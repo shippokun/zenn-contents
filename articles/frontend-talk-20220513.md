@@ -1,6 +1,6 @@
 ---
 title: "Frontend Talk (2022-05-13)"
-emoji: "🕌"
+emoji: "🧠"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["HRBrainFrontendTalk"]
 published: true
