@@ -147,3 +147,14 @@ export default function App() {
   throw new Error("invalid state");
 }
 ```
+
+# あとがき
+
+<!-- prettier-ignore-start -->
+<!-- textlint-disable -->
+HRBrain では毎週このような内容で会をしています。他にも様々なイベントごとを毎週実施しているので気になった方は下記のリンクをクリック！
+
+[フロントエンジニア | 株式会社HRBrain](https://hrmos.co/pages/hrbrain/jobs/2110210)
+
+<!-- textlint-enable -->
+<!-- prettier-ignore-end -->
