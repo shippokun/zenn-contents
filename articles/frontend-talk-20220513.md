@@ -8,15 +8,13 @@ published: true
 
 <!-- prettier-ignore-start -->
 <!-- textlint-disable -->
-
 こんにちは。株式会社HRBrainでフロントエンドエンジニアをしているしっぽくんです。
 
 私たち HRBrain では週に1度30分、フロントエンドトークという「1週間の間に発見したフロントエンドに関するネタを共有もしくは相談する会」を社内で開催しています。  
 
+今回は公開第 1 回目です。過去の記事は[こちら](https://zenn.dev/topics/hrbrainfrontendtalk)。
 <!-- textlint-enable -->
 <!-- prettier-ignore-end -->
-
-今回は公開第 1 回目です。過去の記事は[こちら](https://zenn.dev/topics/hrbrainfrontendtalk)。
 
 # topic
 
@@ -148,10 +146,9 @@ export default function App() {
 }
 ```
 
-# あとがき
-
 <!-- prettier-ignore-start -->
 <!-- textlint-disable -->
+# あとがき
 HRBrain では毎週このような内容で会をしています。他にも様々なイベントごとを毎週実施しているので気になった方は下記のリンクをクリック！
 
 [フロントエンジニア | 株式会社HRBrain](https://hrmos.co/pages/hrbrain/jobs/2110210)
