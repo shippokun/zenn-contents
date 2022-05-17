@@ -2,7 +2,7 @@
 title: "Frontend Talk (2022-05-13)"
 emoji: "🧠"
 type: "idea" # tech: 技術記事 / idea: アイデア
-topics: ["HRBrainFrontendTalk"]
+topics: ["HRBrainFrontend"]
 published: true
 ---
 
@@ -12,7 +12,7 @@ published: true
 
 私たち HRBrain では週に1度30分、フロントエンドトークという「1週間の間に発見したフロントエンドに関するネタを共有もしくは相談する会」を社内で開催しています。  
 
-今回は公開第 1 回目です。過去の記事は[こちら](https://zenn.dev/topics/hrbrainfrontendtalk)。
+今回は公開第 1 回目です。過去の記事は[こちら](https://zenn.dev/topics/hrbrainfrontend)。
 <!-- textlint-enable -->
 <!-- prettier-ignore-end -->
 
