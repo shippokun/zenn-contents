@@ -27,7 +27,7 @@ Adobe のデザインシステムである React Spectrum の リリースノー
 
 https://github.com/adobe/react-spectrum/pull/3108
 
-各種ライブラリのアップデートしつつ、完全に移行できない部分は自作する[^1]など細かな努力が見えます。
+各種ライブラリのアップデートしつつ、完全に移行できない部分は自作されていたり[^1]など参考になります。
 React18 では Suspense やその他魅力的なアップデートも多くマイグレーション対応したいものの、必要な周辺ライブラリのアップデート作業が多いのでできるところから対応したいですね。
 
 [^1]: @testing-library/react-hooks から @react-spectrum/test-util に[差し替えて](https://github.com/adobe/react-spectrum/blob/b5db74d40c139192c709193ee976dfc945d505b6/packages/%40react-aria/actiongroup/test/useActionGroup.test.js#L14)移行しています。
