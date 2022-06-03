@@ -18,9 +18,9 @@ published: true
 今回は公開第 <%= h.talkCount() %> 回目です。過去の記事は[こちら](https://zenn.dev/topics/hrbrainfrontend)。
 <!-- textlint-enable -->
 <!-- prettier-ignore-end -->
-# topic
-
 # news
+
+# know-how
 
 # discussion
 <!-- prettier-ignore-start -->
