@@ -71,7 +71,7 @@ https://storybook.js.org/blog/automate-accessibility-tests-with-storybook/
 弊社社員の中で外部の LT に参加する人がいて、その方からの切実な相談事が持ち込まれました。
 
 実際にどんなテーマがいいのか、こういうのはどう？みたいにディスカッションをしました。
-ここでは詳細は省きますが、気になる方はぜひ実際の LT イベントの参加してみてください。
+ここでは詳細は省きますが、気になる方はぜひ実際の LT イベントに参加してみてください。
 
 https://rakus.connpass.com/event/245664/
 No.3 の purpleeeee さんの枠です。
