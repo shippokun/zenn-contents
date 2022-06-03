@@ -22,7 +22,7 @@ published: true
 
 https://react-spectrum.adobe.com/releases/2022-05-27.html
 
-Adobe のデザインシステムである React Spectrum の リリースノートが更新されました。
+Adobe のデザインシステムである React Spectrum のリリースノートが更新されました。
 今回注目したポイントとして React v18 の対応 PR の内容です。
 
 https://github.com/adobe/react-spectrum/pull/3108
