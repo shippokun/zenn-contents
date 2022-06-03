@@ -57,12 +57,12 @@ https://codesandbox.io/embed/rough-haze-yxixpb?fontsize=14&hidenavigation=1&them
 
 https://storybook.js.org/blog/automate-accessibility-tests-with-storybook/
 
-先週お話した[https://zenn.dev/hrbrain/articles/frontend-talk-2022-05-27#storybook-v6.5-%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%83%96%E3%83%AD%E3%82%B0%E3%81%8C%E5%85%AC%E9%96%8B]Storybook v6.5 で追加された test-runner を使った a11y 自動テストについての公式ブログ記事。
+[先週お話した](https://zenn.dev/hrbrain/articles/frontend-talk-2022-05-27#storybook-v6.5-%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%83%96%E3%83%AD%E3%82%B0%E3%81%8C%E5%85%AC%E9%96%8B)Storybook v6.5 で追加された test-runner を使った a11y 自動テストについての公式ブログ記事。
 
 [Addon](https://storybook.js.org/addons/@storybook/addon-a11y) 自体は前から存在しており、Storybook のパネルに Axe を実行した結果を視覚的に確認ができます。
 今回の test-runner の登場により CI 上でチェックできるため、都度 Storybook を直接確認しにいく必要もなく、また気付かぬうちに壊れている状態になることも事前に防ぐことができます。
 
-違反内容を JSON や CLI 上で表示したり、アクセシビリティツリーのスナップショットを作成するなど色々とできることもあり、より a11y に配慮したコードを書くための補助ツールとして利用ができそうです。
+違反内容を JSON や CLI 上で表示したり、a11y tree のスナップショットを作成するなど色々とできることもあり、より a11y に配慮したコードを書くための補助ツールとして利用ができそうです。
 
 # discussion
 
