@@ -34,7 +34,7 @@ Safari 16 beta が公開されました。
 Chrome に実装されている WebPush が Safari にも登場します。
 この WebPush には `Apple Push Notification` が使われているため、ネイティブと Web で同じ通知サービスを利用でき、さらにこのサービス自体は AppleDevelopmentProgram のメンバーに入る必要はない、という点も素晴らしいですね。
 
-## Component Encylopedia
+## Component Encyclopedia
 
 UI コンポーネントの一覧を Storybook が提供サービスを始めました。
 https://storybook.js.org/showcase
