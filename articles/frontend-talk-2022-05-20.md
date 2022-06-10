@@ -115,6 +115,6 @@ curl と使い方は似ているので npm と yarn みたいに脳内で置換�
 
 HRBrain では毎週このような内容で会をしています。他にも様々なイベントごとを毎週実施しているので気になった方は下記のリンクをクリック！
 
-[フロントエンジニア | 株式会社 HRBrain](https://hrmos.co/pages/hrbrain/jobs/2110210)
+[フロントエンドエンジニア | 株式会社 HRBrain](https://hrmos.co/pages/hrbrain/jobs/2110210)
 
 <!-- textlint-enable -->
