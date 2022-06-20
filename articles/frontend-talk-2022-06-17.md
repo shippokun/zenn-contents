@@ -28,7 +28,10 @@ https://devblogs.microsoft.com/typescript/announcing-typescript-4-7
 
 - 出来るようになったこと
   - tsconfig の `compilerOptions` の `module` に `node16` と `nodenext` が設定できるようになった
-  - `.ts` → `.js`, `.cts` → `.cjs`, `.mts` → `.mjs` へそれぞれトランスパイルできるようになった
+  - それぞれ以下のようにトランスパイルできるようになった
+    - `.ts` → `.js`
+    - `.cts` → `.cjs`
+    - `.mts` → `.mjs`
 
 `CommonJS modules` と `ECMAScript modules（以降、ES modules）` について少し前提を整理してみました。
 
