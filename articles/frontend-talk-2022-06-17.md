@@ -44,9 +44,9 @@ https://devblogs.microsoft.com/typescript/announcing-typescript-4-7
   - この機能の仕様に `Babel` と `TypeScript` は準拠していなかった。
     - そのため、トランスパイルした後のファイルが別のものになっていたので、Node.js の `CJS-interop` が使えなかった。
   - 今回 TS に追加された `compilerOptions.module` へ `node16` or `nodenext` を設定することで、それぞれが Node.js の `CJS-interop` が解釈できる各種 JS に出力してくれるようになった。
-- ここで問題になるのが、 `.js` と `.ts` は `CommonJS modules` か `ES modules` なのかがわからないこと。
-  - これの解決方法として `package.json` の `exports` に記述した内容でどちらの modules なのかを示すことができるようになった。
-  - 合わせて `CommonJS modules` と `ES modules` それぞれの型定義ファイルも出力できるようになりました。
+- `package.json` の `type` フィールドが `module` の場合は `ES modules` 形式に、 `commonjs` だったら `CommonJS modules` 形式へトランスパイルされるようになりました。
+  - このように `.ts` ファイルのトランスパイル形式の確定が、`package.json` の `type` フィールドへ委ねられるようになりました。
+- また新しく追加された `exports` フィールドによって `ES modules` と `CommonJS modules` それぞれのエントリーファイルの指定に加え、型ファイルも各形式に則したファイルを指定できるようになりました。
 
 ### extends Constraints on infer Type Variables
 
