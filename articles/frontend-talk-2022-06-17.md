@@ -41,7 +41,7 @@ https://devblogs.microsoft.com/typescript/announcing-typescript-4-7
   - Node12 は[デフォルト](https://nodejs.org/docs/latest-v12.x/api/esm.html#esm_enabling)で `CommonJS modules` をサポート。
 - Node.js は `CJS-interop` という機能を持っている。
   - `CJS-interop` : `CommonJS modules` と `ES modules` を相互互換にする機能
-  - この機能の仕様に `Babel` と `TypeScript` は準拠していなかった。
+  - この機能の仕様に `TypeScript` は準拠していなかった。
     - そのため、トランスパイルした後のファイルが別のものになっていたので、Node.js の `CJS-interop` が使えなかった。
   - 今回 TS に追加された `compilerOptions.module` へ `node16` or `nodenext` を設定することで、それぞれが Node.js の `CJS-interop` が解釈できる各種 JS に出力してくれるようになった。
 - `package.json` の `type` フィールドが `module` の場合は `ES modules` 形式に、 `commonjs` だったら `CommonJS modules` 形式へトランスパイルされるようになりました。
