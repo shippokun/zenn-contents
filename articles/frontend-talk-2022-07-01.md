@@ -198,7 +198,7 @@ if (Object.hasOwn(object, "foo")) {
 https://v8.dev/blog/discontinuing-release-posts
 
 Google のオープンソースで JavaScript および WebAssembly エンジンである V8 のブログ投稿が停止しました。
-これまで V8 の新しいリリースブランチごとに投稿がありましたが、情報源がいくつかあることを紹介し、以降は紹介した記事を参照するように書かれています。
+これまで新しいリリースブランチごとに投稿がありましたが、この最後の更新となる投稿内では、情報源がいくつかあることを紹介し、以降は紹介した記事を参照するように書かれています。
 
 <!-- prettier-ignore-start -->
 <!-- textlint-disable -->
