@@ -176,7 +176,7 @@ try {
 
 https://github.com/tc39/proposal-accessible-object-hasownproperty
 
-`Object.prototype.hasOwnProperty()` を利用した際に上書きや、そもそも `.prototype` が利用できないパターンがあるため追加されました。
+`Object.prototype.hasOwnProperty()` をcallする際にそのオブジェクトが既に`hasOwnProperty`というプロパティを持っていた場合にそれに上書きされてしまったり、そもそも `.prototype` が利用できないパターンがあるため追加されました。
 
 ```ts
 // https://github.com/tc39/proposal-accessible-object-hasownproperty#motivation
