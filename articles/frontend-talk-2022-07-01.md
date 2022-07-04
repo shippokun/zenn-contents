@@ -93,9 +93,9 @@ const resp = fetch(url, { signal });
 https://github.com/tc39/proposal-class-fields/blob/main/PRIVATE_SYNTAX_FAQ.md
 
 今まで TS には `private methoods` がありましたが、 JS へコンパイルする際には public へ変換されていました。
-今回追加された `#` を頭に用意することで JS でも private が実現されました。
+今回追加された `#` を頭に用意することで JS でもフィールドやメソッドに private の概念を持ち込むことができます。
 
-なぜ `#` が利用されたのかは消去法によるものらしく、候補対象には下記のものが挙げられました。
+なぜ構文として `#` が利用されたのかは消去法によるものらしく、候補対象には下記のものが挙げられました。
 
 - `@`
   - デコレーターで利用されているため NG
@@ -146,7 +146,7 @@ for (const C of [Array, String, TypedArray]) {
 
 https://github.com/tc39/proposal-error-cause
 
-error に `.cause` が追加されて、明示的にエラー内容を入れることで参照できるようになりました。
+error に `.cause` が追加されて、明示的にエラー内容を入れることでそのエラーを catch した先で参照できるようになりました。
 
 ```ts
 // https://github.com/tc39/proposal-error-cause#chaining-errors
@@ -176,7 +176,7 @@ try {
 
 https://github.com/tc39/proposal-accessible-object-hasownproperty
 
-`Object.prototype.hasOwnProperty()` をcallする際にそのオブジェクトが既に`hasOwnProperty`というプロパティを持っていた場合にそれに上書きされてしまったり、そもそも `.prototype` が利用できないパターンがあるため追加されました。
+`Object.prototype.hasOwnProperty()` を call する際にそのオブジェクトが既に `hasOwnProperty` というプロパティを持っていた場合に上書きされてしまったり、そもそも `.prototype` が利用できないパターンがあるため追加されました。
 
 ```ts
 // https://github.com/tc39/proposal-accessible-object-hasownproperty#motivation
