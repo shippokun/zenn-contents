@@ -28,7 +28,7 @@ https://developer.chrome.com/blog/new-in-chrome-103/
 
 HTTP のステータスコードに 103 が登場しました。
 サーバーへリクエストする際に、ページ作成のレスポンスに時間がかかる場合にサーバー側から先に 103 のレスポンスを返すことができるようになりました。
-これによりクライアント側で先にリソース(CSS, JS など)のロード対応ができるようになるので、全体的なページロードが早くできます。
+これによりクライアント側で先にリソース(CSS, JS など)のロード対応ができるようになるため、全体的なページロードを早くできる可能性があります。
 
 ### Local Font Access API
 
@@ -36,6 +36,7 @@ HTTP のステータスコードに 103 が登場しました。
 利用するためには 2 段階の処理が必要になります。
 
 ```js
+// https://developer.chrome.com/blog/new-in-chrome-103/#local-fonts
 // Step1: ローカルへのアクセス許可取得
 try {
   const status = await navigator.permissions.request({
@@ -63,10 +64,11 @@ for (const fontData of pickedFonts) {
 
 ### Easier Timeouts with AbortSignal.timeout()
 
-これまで fetch を中断させたい場合は `AbortController()` と `setTimeout` を組み合わせていましたが、今回の `AbortSignal.timeout()` だけで実現できるようになりました。
+これまで fetch を中断させたい場合は `AbortController()` と `setTimeout` を組み合わせていましたが、それを今回の `AbortSignal.timeout()` だけで実現できるようになりました。
 この機能はすでに Firefox と Safari で利用できるため、今回の Chrome のサポートによってモダンブラウザでの利用が可能になりそうです。
 
 ```js
+// https://developer.chrome.com/blog/new-in-chrome-103/#abort-timeout
 // Before
 const controller = new AbortController();
 const signal = controller.signal;
@@ -177,6 +179,7 @@ https://github.com/tc39/proposal-accessible-object-hasownproperty
 `Object.prototype.hasOwnProperty()` を利用した際に上書きや、そもそも `.prototype` が利用できないパターンがあるため追加されました。
 
 ```ts
+// https://github.com/tc39/proposal-accessible-object-hasownproperty#motivation
 // Before
 let hasOwnProperty = Object.prototype.hasOwnProperty;
 
