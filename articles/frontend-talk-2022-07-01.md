@@ -14,7 +14,7 @@ published: true
 
 先週はお休みでしたが、引き続き更新していきます。
 
-今回は公開第 6 回目です。過去の記事は[こちら](https://zenn.dev/topics/hrbrainfrontend)。
+今回は公開第 7 回目です。過去の記事は[こちら](https://zenn.dev/topics/hrbrainfrontend)。
 <!-- textlint-enable -->
 <!-- prettier-ignore-end -->
 
