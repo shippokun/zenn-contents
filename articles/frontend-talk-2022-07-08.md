@@ -106,8 +106,6 @@ https://www.youtube.com/watch?v=jWafEXS7EE0&t=1276s
 インラインで書いた方が、CSS ファイルの読み込みをスキップさせてパースの邪魔をしないためパフォーマンスの観点ではインラインで書くのが望ましいです。
 しかしインラインで書けない場合は CSS ファイルとして書き出して、キャッシュが可能な link タグに出した方がよいと考えられます。
 
-# discussion
-
 <!-- prettier-ignore-start -->
 <!-- textlint-disable -->
 # あとがき
